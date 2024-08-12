@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <script src="https://kit.fontawesome.com/913591aedb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1 style="margin-bottom: 10px;">Welcome to Paradise</h1>
+            <p style="font-size: 20px; margin: 10px;">We provide rooms at a very good price along with great amenities to make your living experience awesome</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+    <h1 class="about-heading">About Us</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>Welcome to [Hotel Name], your tranquil oasis in the heart of [City]. Our hotel is a haven where you can unwind, relax, and rejuvenate. As you step into our lobby, you'll be greeted with warm hospitality and surrounded by elegant decor that sets the tone for a peaceful retreat.
+            </p>
+            <br>
+            <p>Indulge in our spacious rooms and suites, meticulously designed to provide the ultimate comfort experience. Plush bedding, marble bathrooms, and modern amenities will make you feel pampered and indulged. Whether you're traveling  for business or pleasure, our rooms are your haven to rest, recharge, and refocus.</p>
+            <div class="know-more-container">
+            <button class="know-button">Know More...</button>
+        </div>
+        </div>
+        <div class="amenities">
+            <h3>Amenities We have</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+                <li><i class="fa-solid fa-utensils"></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="hotel-room1.png" alt="room">
+        </div>
+        <div class="room-list">
+            <h4>family Room</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, possimus maiores maxime animi, quod, voluptatibus atque aperiam sit hic dignissimos nemo. Quibusdam, ad! Ut optio adipisci, inventore numquam voluptatem quas.</p>
+            <h4>Duplex Room</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ipsa harum maxime velit in molestias ea quaerat voluptatem eum laudantium recusandae hic nisi dolor inventore minima porro, labore, nulla quam?</p>
+            <h4>Single Occupancy Room</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nulla pariatur itaque consequatur maxime eveniet quod enim. Necessitatibus vero, quod eos nisi recusandae ipsum ipsam corrupti fuga nostrum adipisci quos?</p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for booking room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date of Booking</label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select Room Type</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select..</option>
+                    <option value="single room" required>Single Room</option>
+                    <option value="family room" required>Family Room</option>
+                    <option value="duplex room" required>Duplex Room</option>
+                </select>
+            </div>
+            <input type="submit" value="Book">
+        </form>
+    </section>
+</body>
+</html>

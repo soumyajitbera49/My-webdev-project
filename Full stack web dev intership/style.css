@@ -1,0 +1,26 @@
+h1{
+    color:#FF0000;
+    font-size: 30px;
+    background-color: orange;
+    margin: 30px;
+    border: 5px solid black;
+    padding: 20px;
+}
+p{
+    border: 2px dashed rgb(48, 77, 6);
+}
+#h3{
+    color: blue;
+
+}
+h1,h3{
+    color: blueviolet;
+    border: 5px solid yellow;
+}
+.h3class{
+    color: rgb(168, 10, 185);
+}
+img{
+    height: 500px;
+    width: 500px;
+}
